@@ -4,7 +4,7 @@ This is a public repo about the code challenges and projects for Motoko bootcamp
 
 ## How it works
 
-To run locally every canister per day you only need to run the following command.
+to run locally all the code challenges per day you only need to run the following command.
 
 ```
     dfx deploy <canister_name>
