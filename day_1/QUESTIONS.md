@@ -34,7 +34,7 @@ actor {
 ```
 
 ```Answer:
-    1 - variable "message should" be a Text and is receiving a Nat
+    1 - variable "message" should be a Text and is receiving a Nat
     2 - function "change_message" can't be query, because is changing the state.
 ```
 
