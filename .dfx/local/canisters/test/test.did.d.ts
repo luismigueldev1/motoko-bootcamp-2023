@@ -1,6 +1,4 @@
 import type { Principal } from '@dfinity/principal';
 import type { ActorMethod } from '@dfinity/agent';
 
-export interface _SERVICE {
-  'add_language' : ActorMethod<[string], Array<string>>,
-}
+export interface _SERVICE { 'arr' : ActorMethod<[], Array<bigint>> }

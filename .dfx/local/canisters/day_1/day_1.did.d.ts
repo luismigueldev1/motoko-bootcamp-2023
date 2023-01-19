@@ -6,7 +6,7 @@ export interface _SERVICE {
   'hours_to_minute' : ActorMethod<[bigint], bigint>,
   'is_even' : ActorMethod<[bigint], boolean>,
   'multiply' : ActorMethod<[bigint, bigint], bigint>,
-  'multiply_homework' : ActorMethod<[bigint, bigint], number>,
+  'multiply_and_sqrt' : ActorMethod<[bigint, bigint], number>,
   'set_counter' : ActorMethod<[bigint], undefined>,
   'test_divide' : ActorMethod<[bigint, bigint], boolean>,
   'volume' : ActorMethod<[bigint], bigint>,

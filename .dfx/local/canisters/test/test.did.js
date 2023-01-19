@@ -1,6 +1,4 @@
 export const idlFactory = ({ IDL }) => {
-  return IDL.Service({
-    'add_language' : IDL.Func([IDL.Text], [IDL.Vec(IDL.Text)], []),
-  });
+  return IDL.Service({ 'arr' : IDL.Func([], [IDL.Vec(IDL.Int)], ['query']) });
 };
 export const init = ({ IDL }) => { return []; };

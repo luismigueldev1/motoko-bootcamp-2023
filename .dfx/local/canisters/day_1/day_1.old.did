@@ -3,7 +3,7 @@ service : {
   hours_to_minute: (nat) -> (nat) query;
   is_even: (nat) -> (bool) query;
   multiply: (nat, nat) -> (nat) query;
-  multiply_homework: (int, int) -> (float64) query;
+  multiply_and_sqrt: (int, int) -> (float64) query;
   set_counter: (nat) -> ();
   test_divide: (nat, nat) -> (bool) query;
   volume: (nat) -> (nat) query;
