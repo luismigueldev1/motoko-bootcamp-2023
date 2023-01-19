@@ -5,11 +5,15 @@
       "type": "motoko"
     },
     "day_1": {
-      "main": "./day_1/main.mo",
+      "main": "./day_1/challenge.mo",
       "type": "motoko"
     },
     "day_2": {
-      "main": "./day_2/main.mo",
+      "main": "./day_2/challenge.mo",
+      "type": "motoko"
+    },
+    "day_3": {
+      "main": "./day_3/challenge.mo",
       "type": "motoko"
     }
   }
