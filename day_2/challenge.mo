@@ -63,7 +63,7 @@ actor {
             };
             original.add(number);
         };
-        return duplicates.toArray();
+        return Buffer.toArray(duplicates);
     };
 
 
