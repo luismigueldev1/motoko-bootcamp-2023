@@ -24,12 +24,10 @@ actor {
 
     // 3 - In your file called utils.mo: write a function drop that takes 2 parameters: an array [T] and a Nat n. This function will drop the n first elements of the array and returns the remainder.
     //drop<T> : (xs : [T], n : Nat) -> [T]
-
-    //TODO: getting an error: shared function has unexpected type parameters
-    // public func drop<T>(xs : [T], n: Nat) : async [T] {
-    //     let buffer = Buffer.fromArray<T>(xs);
-    //     let new_buffer = Buffer.split<T>(buffer, n);
-    //     return Buffer.toArray<T>(new_buffer(1));
-    // };
+    func drop<T>(xs : [T], n: Nat) : [T] {
+        let buffer = Buffer.fromArray<T>(xs);
+        let (_, split) = Buffer.split<T>(buffer, n);
+        return Buffer.toArray<T>(split);
+    };
 
 }
